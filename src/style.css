@@ -1,0 +1,81 @@
+.main {
+    margin: 0;
+}
+
+.BasicInfo {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+}
+
+.BasicInfo--name {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    
+
+    color: #FFFFFF;
+}
+
+.BasicInfo--jobTitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #F3BF99;
+}
+
+.BasicInfo--url {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+.contact--btn {
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+}
+
+.mainBody {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.Details--title {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.Details--text {
+    color: #DCDCDC;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+}
+
+.footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
