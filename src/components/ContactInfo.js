@@ -5,7 +5,7 @@ function ContactInfo() {
     return(
         <div className="contact--btn">
             <img src={EmailIcon}></img>
-            <p>Email</p>
+            <p className="contact--text">Email</p>
         </div>
     );
 };

@@ -3,8 +3,8 @@ import IconPhoto from "./../images/icon.png"
 
 function Photo() {
     return(
-        <div>
-            <img src={IconPhoto}></img>
+        <div className="photoDiv">
+            <img src={IconPhoto} className="iconPhoto"></img>
         </div>
     );
 };

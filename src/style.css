@@ -1,11 +1,56 @@
+.footer {
+    width: 100%;
+    height: 64px;
+    margin-top: 24px;
+    
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
 .main {
     margin: 0;
+    width: 317px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #1A1B21;
+}
+
+.iconPhoto {
+    width: 317px;
+    margin: 0;
+}
+
+.photoDiv {
+    height: 317px;
+}
+
+.mainBody {
+    font-family: 'Inter';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    
 }
 
 .BasicInfo {
     font-family: 'Inter';
     font-style: normal;
     text-align: center;
+
+    margin: 0px;
 }
 
 .BasicInfo--name {
@@ -13,6 +58,8 @@
     font-size: 25px;
     line-height: 30px;
     
+    margin-top: 21px;
+    margin-bottom: 7px;
 
     color: #FFFFFF;
 }
@@ -22,6 +69,7 @@
     font-size: 13px;
     line-height: 15px;
 
+    margin: 0;
     color: #F3BF99;
 }
 
@@ -30,10 +78,16 @@
     font-size: 11px;
     line-height: 150%;
 
+    margin-top:8px;
     color: #F5F5F5;
 }
 
 .contact--btn {
+    width: 247px;
+    height:34px;
+
+    margin-bottom: 32px;
+    
     background: #FFFFFF;
     /* gray/300 */
 
@@ -47,35 +101,41 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 13px 9px 11px;
     gap: 8px;
 }
 
-.mainBody {
+.contact--text {
     font-family: 'Inter';
     font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    color: #374151;
+}
+
+.Details {
+    margin: 0px 35px 0px 35px;
 }
 
 .Details--title {
     color: #F5F5F5;
     font-weight: 700;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 24px;
+
+    margin: 0;
 }
 
 .Details--text {
     color: #DCDCDC;
     font-weight: 400;
-    font-size: 11px;
-    line-height: 150%;
+    font-size: 8px;
+    line-height: 15px;
+
+    margin-top: 5px;
+
+    text-align: left;
 }
 
-.footer {
-    background: #161619;
-    border-radius: 0px 0px 10px 10px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
